@@ -499,6 +499,7 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
+    padding-right: 20px;
 }
 
 .nav-links li {
@@ -647,7 +648,7 @@ nav {
 }
 
 .about-text {
-    flex: 1.5;
+    flex: 1;
 }
 
 .skills {
@@ -950,6 +951,7 @@ footer {
         justify-content: center;
         transition: var(--transition);
         z-index: 101;
+        padding-right: 0;
     }
     
     .nav-links.active {
